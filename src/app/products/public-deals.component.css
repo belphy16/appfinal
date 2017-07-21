@@ -1,0 +1,7 @@
+.panel-body {
+    min-height: 100px;
+}
+.badge{
+    color:white;
+    background-color: red;
+}

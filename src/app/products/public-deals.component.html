@@ -1,0 +1,17 @@
+
+<navbar></navbar>
+<div class="row">
+    <div *ngFor="let product of publicDeals">
+        <div class="col-xs-4">
+            <div class="thumbnail product">
+                <span class="badge">{{product.id}}</span> <strong>{{product.name}}</strong><br>
+                <img width="250" height="250" src={{product.image}} >
+                
+                <!--<p>{{product.info}}</p>-->
+                <h1 class="badge">${{product. originalPrice}}</h1>
+                <button (click)="addToCart(product)" class="btn btn-sm btn-primary">Add to Cart</button>
+                <button (click)="clickedProduct(product)" id="Productdetail" class="btn btn-sm btn-success">Details</button>
+            </div>
+        </div>
+    </div>
+</div>

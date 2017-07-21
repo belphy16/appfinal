@@ -1,0 +1,14 @@
+.col-md-6 well{
+    height:300 px;
+}
+.col-md-4 thumbnail image{
+     margin-left: 200px;
+
+}
+.container{
+    align-content: center;
+}
+.badge{
+    color:white;
+    background-color: red;
+}

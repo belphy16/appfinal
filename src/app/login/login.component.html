@@ -1,0 +1,29 @@
+<body>
+<div class="container" >
+    <div class="row">
+        <h1>Shopper's Point</h1>
+        <label><h3>Great stores,Great choices,Love shopping again!!</h3></label>
+        <div class="box">
+            <div class="title"><h4>
+                Shopping Cart Login
+            </h4></div>
+        <h2>Login Here</h2>
+        <div class="form-group">
+         <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+         <div class="col-lg-10">
+          <input type="text" #username class="form-control" id="inputEmail" placeholder="Email">
+         </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+          <div class="col-lg-10">
+          <input type="password" #password class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        </div>
+      
+        <button type="button" class="btn btn-success" (click)="onClick(username.value,password.value)">Login</button>
+    </div>
+
+  </div>
+</div>
+</body>
